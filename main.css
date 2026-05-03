@@ -1,0 +1,27 @@
+body {
+    background-color:rgb(231, 253, 231);
+}
+
+
+/* color of hyperlink text */
+a {
+    color:darkgreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color:mediumseagreen;
+}
+
+a:hover {
+    color:lawngreen;
+}
+
+a:active {
+    color:seagreen;
+}
+
+/* font family */
+
+
+

@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "wish";
+    src: url("fonts/wish.woff2") format("woff2"),
+    url("fonts/wish.woff") format("woff");
+}
+
+p, a {
+    font-family: "wish", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    text-decoration: none;
+}
+
+a{
+    margin: 0 60px;
+}
+
+body {
+    text-align: center;
+    background-color:rgb(231, 253, 231);
+}
+
+.choices {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+/* hyperlink */
+
+a:link {
+    color:black;
+}
+
+a:visited {
+    color:black;
+}
+
+a:hover {
+    color:rgb(8, 105, 8);
+    
+}
+
+a:active {
+    color:black;
+}
+
+
+/* individual sizing */
+
+.flower {
+    width: 500px;
+    margin-top: 10px;
+    
+}
+
+.puff1 {
+    width: 550px;
+    display: block;
+    margin: 50px auto 0 auto;
+   
+}
+
+.puff2 {
+    width: 570px;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+.puff3 {
+    width: 600px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.puff4 {
+    width: 500px;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+.puff5 {
+    width: 600px;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.puff6 {
+    width: 600px;
+    display: block;
+    margin: 50px auto 0 auto;
+}
+
+.final {
+    width: 400px;
+    display: block;
+    margin: 100px auto 0 auto;
+}
+
+.seed {
+    width: 150px;
+}

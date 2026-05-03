@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>control</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+        <h1 class="title">Guess if the March bloom is native or invasive!</h1>
+
+    <div class="game">
+
+        <div class="main">
+
+    <!-- LEFT SIDE -->
+            <div class="left">
+
+    <!-- Flower + blanket -->
+            <div class="flower-area">
+                <p id="flowerName"></p>
+                <img id="blanket" src="picnic.jpeg">
+                <img id="flower">
+            </div>
+
+    <!-- Bottom slots -->
+            <div id="slots"></div>
+
+        </div>
+
+    <!-- RIGHT SIDE -->
+        <div class="right">
+
+            <div id="basket" class="drop-zone">
+                <img src="COLLECT.png">
+            </div>
+
+            <div id="trash" class="drop-zone">
+                <img src="TRASH.png">
+            </div>
+
+        </div>
+
+    </div>
+
+        <div id="endScreen" class="overlay hidden">
+            <div class="popup">
+                <p id="scoreText"></p>
+                <button id="restartBtn">Play Again</button> 
+                <button id="homeBtn">Home</button>
+            </div>
+        </div>
+</body>
+
+
+     <script src="main.js" defer></script>
+    </body>
+</html>
